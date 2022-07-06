@@ -1,9 +1,162 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .container{
-    margin: 0;
-    padding: 0;
+width: 80%;
+margin: auto;
+}
+
+button {
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    letter-spacing: 2px;
+}
+
+.nav-bar {
+    background-color: black;
+    padding-top: 1.7%;
+}
+.nav-bar ul {
+    float: right;
+
+}
+.clear {
+    clear: both;
+}
+
+.nav-bar .logo :first-child{
+    color :white; 
+    display: inline-block;
+}
+
+.nav-bar .logo {
+    display: inline-block;
+}
+.nav-bar .logo :nth-child(2) {
+    color: yellow;
+    display: inline-block;
+}
+
+.d-inline-block {
+    display: inline-block;
+    margin-left: 9%;
+    padding-bottom: 5%;
+}
+
+.nav-bar li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar ul {
+    width: 40%;
+}
+
+.sec2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg-sec-two.jpg);
+    background-size: cover;
+}
+.main-content {
+    padding-top: 13%;
+}
+.overlay {
+    background-color: rgb(0 0 0 / 23%);
+    height: 100%;
+}
+
+.left-content {
+display: inline-block;
+width: 45%;
+}
+
+.right-content {
+    display: inline-block;
+    width: 40%;
+}
+
+.sec2 .logo {
+    display: inline-block;
+    font-size:3.5rem ;
+}
+
+.logo :first-child {
+    color: white;
+    display: inline-block;
+}
+
+.logo :nth-child(2) {
+    color: yellow;
+    display: inline-block;
+}
+
+.sec2 h3 {
+    font-size: 1.5rem;
+    padding: 4% 0%;
+    letter-spacing: 3px;
+    color:white;
+}
+.sec2 hr {
+    width: 17%;
+    height: 1.7px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.sec2 h5 {
+    padding: 5% 0%;
+    color :floralwhite;
+    letter-spacing: 2.5px;
+}
+
+.sec2 .left-content button {
+    padding: 2.5% 7%;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bolder;
+    border: white solid 3.5px;
+}
+
+.sec2 .right-content {
+    background-color: white;
+    float: right;
+    border-radius: 10px;
+}
+
+.sec2 .right-content h1 {
+    text-align: center;
+    background-color: #c4b8b89c;
+    padding: 3.5% 0%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+} 
+
+.sec2 .right-content form input {
+    padding: 2.8%;
+    margin: 5% 15%;
+    width: 75%;
+    border: none;
+    border-bottom: solid 1px #ababab;
+}
+
+.sec2 .right-content button {
+    border: none;
+    width: 100%;
+    padding: 4%;
+    background-color: yellow;
+    color: white;
+    font-size: 1.5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: bold;
 }
