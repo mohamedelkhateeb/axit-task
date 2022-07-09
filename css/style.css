@@ -1,3 +1,6 @@
+body {
+    height: 1000px;
+}
 *{
     margin: 0;
     padding: 0;
@@ -39,7 +42,7 @@ button:hover {
     display: inline-block;
 }
 .nav-bar .logo :nth-child(2) {
-    color: yellow;
+    color: #FF8B38;
     display: inline-block;
 }
 
@@ -61,12 +64,12 @@ button:hover {
 
 .sec2 {
     width: 100%;
-    height: 100vh;
     background-image: url(../img/bg-sec-two.jpg);
     background-size: cover;
 }
 .main-content {
     padding-top: 13%;
+    padding-bottom: 12%;
 }
 .overlay {
     background-color: rgb(0 0 0 / 23%);
@@ -94,7 +97,7 @@ width: 45%;
 }
 
 .logo :nth-child(2) {
-    color: yellow;
+    color: #FF8B38;
     display: inline-block;
 }
 
@@ -153,10 +156,266 @@ width: 45%;
     border: none;
     width: 100%;
     padding: 4%;
-    background-color: yellow;
+    background-color: #FF8B38;
     color: white;
     font-size: 1.5rem;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     font-weight: bold;
+}
+
+.i-sec {
+    padding: 1.5% 0%;
+    background-color: white;
+    border-bottom: 2px #808080ad solid;
+}
+.i-sec .l-content {
+    display: inline-block;
+    width: 40%;
+
+}
+
+.i-sec .l-content p {
+    color: grey;
+}
+
+.i-sec .r-content {
+    float: right;
+    width: 50%;    
+    padding-top: 1%
+}
+
+.i-sec .r-content i {
+    padding-right: 6%;
+    color: rgba(128, 128, 128, 0.674);
+    font-size: 3rem;
+}
+.tabs-sec {
+    background-color: #0000000a;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.tabs-sec .left-content  {
+    float: left;
+    width: 11%;
+}
+
+.tabs-sec .middle-content {
+    float: left;
+    width: 42%;
+    margin-left: 10%;
+}
+
+.tabs-sec .right-content {
+    float: right;
+    width: 33%;
+}
+
+.tabs-sec .right-content img {
+    width: 100%;
+}
+
+.tabs-sec .left-content h2 {
+    background: #333333;
+    text-align: center;
+    padding: 40% 0px;
+    margin-bottom: 1.3%;
+    width: 90%;
+    color: white;
+}
+
+.tabs-sec .left-content :first-child {
+    background-color: #FF8B38;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+}
+
+.tabs-sec .left-content :last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px;
+}
+
+.tabs-sec .middle-content h1 {
+    padding-bottom: 10%;
+    font-size: 1.7rem;
+}
+
+.tabs-sec .middle-content p {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    padding-bottom: 5%;
+    color: #ababab;
+
+}
+
+.tabs-sec .middle-content button {
+    padding: 2.5% 7%;
+    color: white;
+    background-color: #ff8b38;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.tabs-sec .right-content img {
+    width: 80%;
+    margin-left: 10%;
+    -webkit-box-reflect: below -26% linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+.sub-list-sec {
+    width: 100%;
+    margin-bottom: 5.5%;
+    padding-bottom: 8%;
+}
+
+.sub-list-sec .left-content {
+    width: 38%;
+}
+
+.sub-list-sec .left-content img {
+    width: 100%;
+    border-top: 16px #a9a9a93b solid;
+}
+
+.sub-list-sec .right-content {
+    float: right;
+    width :48%;
+}
+
+.sub-list-sec .right-content i {
+    float: left;
+    margin: 2.3%;
+    border: 3px #ff8b38 solid;
+    color: #ff8b38;
+    border-radius: 50%;
+    font-size: 12.8px;
+    padding: 1.5%;
+    margin-right: 6%;
+}
+
+.sub-list-sec .right-content h1 {
+    font-size: 1.7rem;
+    padding-bottom: 5%;
+    letter-spacing: .05rem;
+}
+
+.sub-list-sec .right-content hr {
+    width: 13%;
+    margin-bottom: 5%;
+    padding: 1.5px;
+    background-color: #ff8b38;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+.sub-list-sec .right-content p {
+    padding-top: 2%;
+    color: darkgrey;
+}
+
+.sub-list-sec .right-content div {
+    padding-top: 3%;
+}
+
+.standard-pic-sec {
+    background-color: #0000000a;
+    margin-bottom: 8%;
+    padding: 8% 0;
+}
+
+.standard-pic-sec .right-content {
+    width: 40%;
+    float: right;
+}
+
+.standard-pic-sec .right-content img {
+    width: 90%;
+}
+.standard-pic-sec .left-content {
+    width: 45%;
+}
+
+.standard-pic-sec .left-content h1 {
+    font-size: 1.7rem;
+    padding-bottom: 5%;
+    letter-spacing: .05rem;
+}
+
+.standard-pic-sec .left-content hr {
+    width: 13%;
+    margin-bottom: 5%;
+    padding: 1.5px;
+    background-color: #ff8b38;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+.standard-pic-sec .left-content p {
+    padding-top: 2%;
+    color: darkgrey;
+}
+
+.awesome-sec {
+    padding-bottom: 8%;
+}
+
+.awesome-sec .cards {
+    float: right;
+    width: 30%;
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.awesome-sec .head {
+    text-align: center
+}
+
+.awesome-sec .head h1 {
+    padding: 4%;
+    font-size: 4.3rem;
+    font-weight: 100;
+}
+
+.awesome-sec .head hr {
+    width: 8.5%;
+    margin-bottom: 5%;
+    padding: 1.5px;
+    background-color: #ff8b38;
+    border: none;
+    border-radius: 3px;
+    margin-left: 45%;
+}
+.awesome-sec .head p {
+    margin-bottom: 3%;
+    padding: 1.5px;
+    color: darkgrey;
+}
+
+.awesome-sec .cards .fa-keyboard {
+    padding: 2.8% 2.5%;
+
+}
+.awesome-sec .cards i {
+    font-size: 2.5rem;
+    padding: 2.5% 4%;
+    color: #ff8b38;
+    border: orange solid 3px;
+    border-radius: 50%;
+    margin-bottom: 4%;
+}
+
+
+.awesome-sec .cards h1 {
+    padding-bottom: 6%;
+}
+
+.awesome-sec .cards p {
+    padding-bottom: 6%;
 }
