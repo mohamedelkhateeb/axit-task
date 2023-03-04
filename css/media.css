@@ -1,0 +1,36 @@
+@media (max-width : 572px){
+    .container{
+        width:98%;
+    }
+    body {
+        font-size: 100%;
+    }
+    .nav-bar .logo {
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+    .nav-bar ul {
+        width: 110%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width : 1100px) {
+    .main-content .left-content {
+        display: block;
+        width: 85%;
+    }
+    .main-content .right-content {
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .i-sec .r-content {
+        width: 100%;
+    }
+    .i-sec .l-content {
+        width: 100%;
+        padding: 1rem 0;
+    }
+}
